@@ -73,7 +73,7 @@
     gap: 1rem;
 }
 
-input > .player-name{
+.player-name{
     max-width: 250px;
     text-align: center;
     border: dotted;
