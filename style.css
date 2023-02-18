@@ -79,3 +79,8 @@ input > .player-name{
     border: dotted;
     border-radius: 20px;
 }
+
+.vs-symbol{
+    font-size: 6rem;
+    font-weight: 600;
+}
