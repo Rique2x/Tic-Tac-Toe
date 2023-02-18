@@ -73,3 +73,9 @@
     gap: 1rem;
 }
 
+input > .player-name{
+    max-width: 250px;
+    text-align: center;
+    border: dotted;
+    border-radius: 20px;
+}
