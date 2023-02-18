@@ -24,3 +24,10 @@
     flex-direction: column;
     gap: 3em;
 }
+
+.mode-selection, .difficulty-selection-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+}
