@@ -116,6 +116,11 @@
 }
 
 .player-one{
+    text-align: right;
+    font-style: oblique -25deg;
+}
+
+.player-two{
     text-align: left;
     font-style: oblique -25deg;
 }
