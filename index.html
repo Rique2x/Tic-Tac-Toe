@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon/256px-Red_TicTacToe_Icon.svg.png">
     <script src="https://kit.fontawesome.com/9ca286af2e.js" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    
     <title>Tic Tac Toe</title>
 </head>
 <body>
@@ -15,10 +15,13 @@
     <div class="start-screen">
         <div class="start-window">
             <div class="mode-selection">
-                <button class="btn-small" data-mode="player" >
-                    <i class="fa-solid fa-user"></i>
+                <button 
+                id="btn-mode-change" 
+                class="btn-small" 
+                data-mode="player" >
+                    <i class="icn icn-player"></i>
                     VS
-                    <i id="icn-opponent" class="fa-solid fa-robot"></i>
+                    <i id="icn-opponent" class="icn icn-player"></i>
                 </button>
             </div>
             <div class="difficulty-selection-div">
@@ -89,5 +92,6 @@
             />
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
