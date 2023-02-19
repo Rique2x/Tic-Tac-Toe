@@ -173,7 +173,8 @@
 .btn:active,
 button:active {
     /* Scaling button to 0.98 to its original size */
-    transform: scale(.98);
+    transform: scale(0.98);
     /* Lowering the shadow */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
+
