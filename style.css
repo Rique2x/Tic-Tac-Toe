@@ -114,3 +114,8 @@
     font-size: 1.7em;
     min-height: 2em;
 }
+
+.player-one{
+    text-align: left;
+    font-style: oblique -25deg;
+}
