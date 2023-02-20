@@ -92,7 +92,6 @@
 }
 
 .info-board{
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +100,6 @@
 }
 
 .names-board{
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     gap: 1rem;
