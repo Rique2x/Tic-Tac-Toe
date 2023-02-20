@@ -282,3 +282,28 @@ button {
 }
 
 
+@media (max-width: 768px){
+    .header-name > h2{
+        font-size: 2em;
+    }
+
+    .start-window{
+        width: 600px;
+    }
+
+    .mode-selection > button{
+    font-size: 1.5em;
+    width: 100px;
+    }
+
+    .player-name{
+        max-width: 150px;
+        font-size: 0.7em;
+        padding: 0.2em;
+    }
+
+    .vs-symbol{
+        font-size: 4em;
+    }
+
+}
