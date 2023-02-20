@@ -185,3 +185,14 @@ input {
 button {
     all: unset;
 }
+
+.btn-large {
+    width: 15rem;
+    height: 2.5rem;
+}
+
+.btn-small {
+    height: 2.5rem;
+    width: 10rem;
+}
+
