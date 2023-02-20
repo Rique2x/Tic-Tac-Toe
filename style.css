@@ -22,12 +22,14 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #f8dca8;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
 .main,
 .start-screen{
+    color: #3a2601;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,6 +68,7 @@
     border-radius: 8px;
     padding: 0.5rem;
     cursor: pointer;
+    color: #3a2601;
 }
 
 .difficulty-selection-div select{
@@ -96,13 +99,15 @@
 }
 
 .player-name{
+    color: #3a2601;
     max-width: 250px;
     text-align: center;
-    border: dotted;
+    border: dotted black;
     border-radius: 20px;
 }
 
 .vs-symbol{
+    color: #3a2601;
     font-size: 6rem;
     font-weight: 600;
 }
@@ -187,6 +192,7 @@
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+    color: #3a2601;
 }
 
 
@@ -262,3 +268,5 @@ button {
     display: inline-block;
     vertical-align: text-bottom;
 }
+
+
